@@ -1,0 +1,11 @@
+<!--
+Fuck Up
+-->
+
+<Web title="Hello World">
+    <Pack>
+        <Text content="Hello World"></Text>
+        <Button content="Hello World" x="0" y="0"></Button>
+        <Button content="Hello World" x="0" y="0" w="0" h="0"></Button>
+    </Pack>
+</Web>
