@@ -1,0 +1,29 @@
+#ifndef COMPONENTMLDEFINES_H
+#define COMPONENTMLDEFINES_H
+
+#include "/home/codeleaded/System/Static/Library/AlxParser.h"
+
+#define TOKEN_CUSTOM_LINECOMMENT        TOKEN_START+0
+#define TOKEN_CUSTOM_BLOCKCOMMENTSTART  TOKEN_START+1
+#define TOKEN_CUSTOM_BLOCKCOMMENTEND    TOKEN_START+2
+
+#define TOKEN_CUSTOM_ASS                TOKEN_START+18
+#define TOKEN_CUSTOM_ADD                TOKEN_START+19
+#define TOKEN_CUSTOM_SUB                TOKEN_START+20
+#define TOKEN_CUSTOM_MUL                TOKEN_START+21
+#define TOKEN_CUSTOM_DIV                TOKEN_START+22
+#define TOKEN_CUSTOM_NEG                TOKEN_START+23
+#define TOKEN_CUSTOM_DEC                TOKEN_START+24
+
+#define TOKEN_CUSTOM_TAGL               TOKEN_START+25
+#define TOKEN_CUSTOM_TAGR               TOKEN_START+26
+#define TOKEN_CUSTOM_TAGC               TOKEN_START+27
+#define TOKEN_CUSTOM_TAGLEX0            TOKEN_START+28
+#define TOKEN_CUSTOM_TAGLEX1            TOKEN_START+29
+
+#define TOKEN_CUSTOM_TAGOPEN            TOKEN_START+30
+#define TOKEN_CUSTOM_TAGCLOSE           TOKEN_START+31
+
+#define COMPONENTML_TYPE    "alxml"
+
+#endif //!COMPONENTMLDEFINES_H
