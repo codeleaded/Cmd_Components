@@ -1,7 +1,13 @@
 #ifndef COMPONENTMLDEFINES_H
 #define COMPONENTMLDEFINES_H
 
+#if defined __linux__
 #include "/home/codeleaded/System/Static/Library/AlxParser.h"
+#elif defined _WINE
+#include "/home/codeleaded/System/Static/Library/AlxParser.h"
+#elif defined _WIN32
+#include "F:/home/codeleaded/System/Static/Library/AlxParser.h"
+#endif
 
 #define TOKEN_CUSTOM_LINECOMMENT        TOKEN_START+0
 #define TOKEN_CUSTOM_BLOCKCOMMENTSTART  TOKEN_START+1

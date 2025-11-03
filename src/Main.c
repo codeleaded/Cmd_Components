@@ -1,6 +1,16 @@
+#if defined __linux__
 #include "/home/codeleaded/System/Static/Library/ComponentPack.h"
 #include "/home/codeleaded/System/Static/Library/ComponentML.h"
 #include "/home/codeleaded/System/Static/Library/ComponentDefines.h"
+#elif defined _WINE
+#include "/home/codeleaded/System/Static/Library/ComponentPack.h"
+#include "/home/codeleaded/System/Static/Library/ComponentML.h"
+#include "/home/codeleaded/System/Static/Library/ComponentDefines.h"
+#elif defined _WIN32
+#include "F:/home/codeleaded/System/Static/Library/ComponentPack.h"
+#include "F:/home/codeleaded/System/Static/Library/ComponentML.h"
+#include "F:/home/codeleaded/System/Static/Library/ComponentDefines.h"
+#endif
 
 
 int main(int argc,const char *argv[]){
